@@ -12,9 +12,8 @@ bot.hotkey('win', 's')
 bot.write(arquivo)
 bot.press('enter')
 bot.sleep(3)
-# bot.hotkey('ctrl', '-')
-# bot.hotkey('ctrl', '-')
-bot.click(x=631, y=521)
+for i in range(13):
+    bot.press('tab')
 
 
 for i in range(verificar_mes(data)):
